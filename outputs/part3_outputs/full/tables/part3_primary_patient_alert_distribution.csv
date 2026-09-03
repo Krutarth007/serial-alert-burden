@@ -1,0 +1,9 @@
+metric,value,smoke_test
+n_patients,1424.0,False
+mean,111.557,False
+median,45.0,False
+q25,11.0,False
+q75,137.0,False
+q90,317.0,False
+max,1494.0,False
+pct_patients_with_at_least_one_alert,98.876,False

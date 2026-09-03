@@ -1,0 +1,23 @@
+check,status,detail,smoke_test
+Part 1 and Part 2 manifests found,PASS,full_densenet121_sens50,False
+Part 2 audit had zero failures,PASS,0 WARN,False
+fingerprints align,PASS,ff1425a89979,False
+selected thresholds frozen and complete,PASS,13 labels,False
+no patient overlap,PASS,asserted on split assignments,False
+no duplicate image-pathology rows,PASS,asserted on stream and predictions,False
+primary reconstruction matches Part 2,PASS,"158,857 fired alerts, all categories identical",False
+no index or warm-up rows in primary cohort,PASS,"36,361 excluded upstream",False
+bootstrap is patient-clustered,PASS,"1,424 patients resampled as clusters",False
+bootstrap resumable and complete,PASS,"1,000/1,000 replicates",False
+no model retraining occurred,PASS,frozen probabilities only,False
+no test-based threshold selection,PASS,frozen thresholds; alternative recovered from the validation grid,False
+threshold sensitivity uses frozen probabilities,PASS,21 operating points,False
+history families remain distinct,PASS,label vs prediction reported separately,False
+oracle not described as deployable or a universal bound,PASS,framed as a reference point,False
+age integrity not interpreted as chronology validation,PASS,data-consistency restriction only,False
+adjudicated subset labelled within-dataset sensitivity,PASS,never called external validation,False
+severity confound addressed by within-episode analysis,PASS,"5,191 episodes",False
+estimand B provenance recorded,PASS,"exploratory-confirmatory, in manifest",False
+all planned tables have a result or not-estimable record,PASS,missing: none,False
+all planned figures saved or marked not estimable,PASS,missing: none,False
+run mode,PASS,"full, 1000 replicates",False

@@ -1,0 +1,5 @@
+redundancy_definition,history_family,fired_alerts,false_share_pct,redundant_share_pct,first_observed_share_pct,redundant_share_of_correct_pct,n_redundant,n_first_observed,smoke_test
+label_historical,label_history,158857,87.52,10.314,2.165,82.648,16385,3440,False
+label_immediate_prior,label_history,158857,87.52,5.353,7.127,42.89,8503,11322,False
+prediction_historical,prediction_history,158857,87.52,12.054,0.426,96.585,19148,677,False
+prediction_immediate_prior,prediction_history,158857,87.52,10.377,2.103,83.153,16485,3340,False

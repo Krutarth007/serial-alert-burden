@@ -1,0 +1,8 @@
+subgroup,level,n_patients,n_images,n_opportunities,n_positive_labels,fired_alerts,mean_alerts_per_radiograph,alerts_per_100_images,false_share_pct,redundant_share_pct,first_observed_share_pct,redundant_share_of_correct_pct,ci_lower,ci_upper,pct_reduction_one_alert_ever,unstable_cell,instability_reason,smoke_test
+position_bin,2,1424,1424,18512,1091,7483,5.2549,525.492,89.897,3.261,6.842,32.275,28.882,35.675,58.706,False,,False
+position_bin,3,1169,1169,15197,1118,6972,5.9641,596.407,88.483,5.307,6.211,46.077,42.431,49.57,75.617,False,,False
+position_bin,4,1065,1065,13845,1109,6584,6.1822,618.216,88.442,6.318,5.24,54.665,50.77,58.49,84.994,False,,False
+position_bin,5,978,978,12714,1058,6313,6.455,645.501,87.692,7.888,4.419,64.093,60.618,67.742,90.638,False,,False
+position_bin,6,899,899,11687,999,5882,6.5428,654.283,87.266,8.705,4.029,68.358,64.643,71.991,93.166,False,,False
+position_bin,7,837,837,10881,952,5402,6.454,645.4,87.264,9.385,3.351,73.692,69.998,77.308,94.78,False,,False
+position_bin,>=8,786,16427,213551,19529,120221,7.3185,731.85,87.281,11.51,1.209,90.498,89.773,91.21,99.198,False,,False

@@ -1,0 +1,11 @@
+metric,n,pct_of_patients
+patients_total,30805,100.0
+patients_starting_at_followup_0,30805,100.0
+patients_starting_nonzero_possible_left_truncation,0,0.0
+patients_with_internal_followup_gap,0,0.0
+patients_with_duplicated_followup,0,0.0
+patients_with_uncertain_ordinal_order,0,0.0
+patients_in_primary_history_cohort,30805,100.0
+patients_in_strict_history_cohort,30805,100.0
+images_in_primary_history_cohort,112120,363.967
+images_in_strict_history_cohort,112120,363.967

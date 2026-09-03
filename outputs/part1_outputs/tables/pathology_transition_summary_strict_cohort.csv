@@ -1,0 +1,15 @@
+pathology,n_positive_followup,n_first_observed_followup,pct_first_observed_followup
+Atelectasis,9853,3275,33.239
+Cardiomegaly,2008,798,39.741
+Consolidation,4240,1723,40.637
+Edema,2221,991,44.62
+Effusion,12035,2993,24.869
+Emphysema,2251,781,34.696
+Fibrosis,1115,689,61.794
+Hernia,144,51,35.417
+Infiltration,16287,4428,27.187
+Mass,4499,1285,28.562
+Nodule,4667,1730,37.069
+Pleural_Thickening,2622,1243,47.407
+Pneumonia,1253,830,66.241
+Pneumothorax,5033,1218,24.2

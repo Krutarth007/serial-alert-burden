@@ -1,0 +1,5 @@
+metric,macro_mean_over_pathologies,micro_pooled,smoke_test
+false_share_pct,88.067,87.52,False
+redundant_share_pct,9.788,10.314,False
+first_observed_share_pct,2.144,2.165,False
+redundant_share_of_correct_pct,75.069,82.648,False

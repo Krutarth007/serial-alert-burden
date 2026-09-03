@@ -1,0 +1,17 @@
+file,column,dtype,n_unique,example_values,smoke_test
+google2019_nih-chest-xray-labels.csv.gz,Image Index,object,4376,"['00000013_008.png', '00000013_026.png', '00000032_002.png', '00000032_009.png']",False
+google2019_nih-chest-xray-labels.csv.gz,Finding Labels,object,246,"['No Finding', 'Cardiomegaly|Emphysema', 'Infiltration', 'Edema|Infiltration']",False
+google2019_nih-chest-xray-labels.csv.gz,Follow-up #,int64,124,"[8, 26, 2, 9]",False
+google2019_nih-chest-xray-labels.csv.gz,Patient ID,int64,1695,"[13, 32, 116, 181]",False
+google2019_nih-chest-xray-labels.csv.gz,Patient Age,int64,88,"[60, 57, 55, 75]",False
+google2019_nih-chest-xray-labels.csv.gz,Patient Gender,object,2,"['M', 'F']",False
+google2019_nih-chest-xray-labels.csv.gz,View Position,object,2,"['AP', 'PA']",False
+google2019_nih-chest-xray-labels.csv.gz,OriginalImage[Width,int64,231,"[3056, 2500, 2048, 2610]",False
+google2019_nih-chest-xray-labels.csv.gz,Height],int64,179,"[2544, 2048, 2500, 2757]",False
+google2019_nih-chest-xray-labels.csv.gz,OriginalImagePixelSpacing[x,float64,10,"[0.139, 0.168, 0.171, 0.143]",False
+google2019_nih-chest-xray-labels.csv.gz,y],float64,10,"[0.139, 0.168, 0.171, 0.143]",False
+google2019_nih-chest-xray-labels.csv.gz,Fracture,int8,2,"[0, 1]",False
+google2019_nih-chest-xray-labels.csv.gz,Pneumothorax,int8,2,"[0, 1]",False
+google2019_nih-chest-xray-labels.csv.gz,Airspace opacity,int8,2,"[1, 0]",False
+google2019_nih-chest-xray-labels.csv.gz,Nodule or mass,int8,2,"[0, 1]",False
+google2019_nih-chest-xray-labels.csv.gz,Set Id,object,2,"['test', 'val']",False

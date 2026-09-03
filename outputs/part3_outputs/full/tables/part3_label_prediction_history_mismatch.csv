@@ -1,0 +1,5 @@
+prior_label,prior_fire,n,pct_of_current_positive_rows,cell,smoke_test
+False,False,1056,4.084,neither,False
+False,True,4071,15.745,no_prior_label_but_prior_fire,False
+True,False,520,2.011,prior_label_no_prior_fire,False
+True,True,20209,78.16,prior_label_and_prior_fire,False

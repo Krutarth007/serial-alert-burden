@@ -1,0 +1,7 @@
+adjudicated_field,reference,n_images,n_positive,threshold_used,auroc,auprc,sensitivity,ppv,false_alert_proportion,smoke_test
+Pneumothorax,nih_weak_label,1962,200,0.3,0.7641,0.2495,0.9,0.149,0.851,False
+Pneumothorax,adjudicated_reference,1962,195,0.3,0.7624,0.2596,0.8974,0.1449,0.8551,False
+Nodule_or_mass,nih_weak_label,1962,237,0.505,0.5711,0.1566,0.7089,0.1338,0.8662,False
+Nodule_or_mass,adjudicated_reference,1962,295,0.505,0.5912,0.2189,0.7051,0.1656,0.8344,False
+Airspace_opacity,nih_weak_label,1962,629,0.292,0.6706,0.4555,0.9889,0.3316,0.6684,False
+Airspace_opacity,adjudicated_reference,1962,1135,0.292,0.8315,0.8758,0.985,0.5959,0.4041,False

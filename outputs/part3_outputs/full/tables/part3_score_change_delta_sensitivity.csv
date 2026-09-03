@@ -1,0 +1,4 @@
+score_change_delta,fired_alerts,alerts_per_100_followup_images,pct_reduction_vs_baseline,first_observed_positive_alert_retention_pct,patients_losing_all_baseline_first_observed_positive_alerts,smoke_test
+0.05,79052,346.735,50.237,56.017,142,False
+0.1,60136,263.766,62.145,45.814,205,False
+0.2,33098,145.173,79.165,28.285,385,False

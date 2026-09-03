@@ -1,0 +1,73 @@
+{
+  "created_utc": "2026-08-30T19:03:35.890449+00:00",
+  "random_seed": 42,
+  "fast_mode": true,
+  "python": "3.11.5",
+  "platform": "Windows 10",
+  "pandas": "2.3.3",
+  "numpy": "1.24.4",
+  "metadata_file": {
+    "path": "C:\\Users\\kruta\\Downloads\\NIH Chest X-rays\\Data_Entry_2017.csv",
+    "exists": true,
+    "size_bytes": 7861152,
+    "mtime_utc": "2026-06-19T21:21:54.421490+00:00",
+    "head_sha1": "a74022ed8d342ad2583b9fae54735ba0ee08a890"
+  },
+  "image_root": "C:\\Users\\kruta\\Downloads\\NIH Chest X-rays",
+  "n_image_files_indexed": 112120,
+  "official_split_found": true,
+  "artifact_format": "parquet",
+  "wide_rows": 112120,
+  "long_rows": 1569680,
+  "dataset_fingerprint": "ff1425a899795ae61e5aa36ca2ec36252ed995de",
+  "long_fingerprint": "ddb12e8b09355c2af914100ab208481e14e49045",
+  "tables_saved": [
+    "data_coverage_report.csv",
+    "followup_number_audit.csv",
+    "followup_structure_audit.csv",
+    "images_per_patient_summary.csv",
+    "label_integrity_audit.csv",
+    "metadata_missingness.csv",
+    "overall_pathology_prevalence.csv",
+    "pathology_prevalence_by_age_band.csv",
+    "pathology_prevalence_by_projection.csv",
+    "pathology_prevalence_by_sex.csv",
+    "pathology_transition_summary.csv",
+    "pathology_transition_summary_strict_cohort.csv",
+    "patient_sequence_summary.csv",
+    "random_patient_sequence_audit.csv",
+    "sequence_position_distribution.csv",
+    "sequence_quality_audit.csv"
+  ],
+  "figures_saved": [
+    "fig01_images_per_patient.png",
+    "fig02_pathology_prevalence.png",
+    "fig03_label_transition_composition.png",
+    "fig04_prevalence_heatmaps.png",
+    "fig05_sequence_length.png",
+    "fig06_sequence_position.png",
+    "fig07_followup_quality.png"
+  ],
+  "pathologies": [
+    "Atelectasis",
+    "Cardiomegaly",
+    "Effusion",
+    "Infiltration",
+    "Mass",
+    "Nodule",
+    "Pneumonia",
+    "Pneumothorax",
+    "Consolidation",
+    "Edema",
+    "Emphysema",
+    "Fibrosis",
+    "Pleural_Thickening",
+    "Hernia"
+  ],
+  "redundancy_definitions": [
+    "label_historical",
+    "label_immediate_prior",
+    "prediction_historical",
+    "prediction_immediate_prior"
+  ]
+}

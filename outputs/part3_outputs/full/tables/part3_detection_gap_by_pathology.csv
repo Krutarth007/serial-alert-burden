@@ -1,0 +1,14 @@
+pathology,n_first_observed,sens_first_observed,n_repeat,sens_repeat,gap_pp,smoke_test
+Effusion,635,0.474,3885,0.6641,19.01,False
+Mass,287,0.5087,1295,0.6687,16.0,False
+Infiltration,699,0.7682,5188,0.9082,14.0,False
+Edema,312,0.6891,599,0.813,12.39,False
+Cardiomegaly,243,0.4568,731,0.5705,11.37,False
+Pleural_Thickening,345,0.7623,696,0.8678,10.55,False
+Atelectasis,642,0.7072,2480,0.8097,10.25,False
+Nodule,381,0.5328,1084,0.6172,8.44,False
+Consolidation,486,0.8807,1282,0.9618,8.11,False
+Pneumonia,284,0.743,244,0.8156,7.26,False
+Emphysema,249,0.6345,809,0.6823,4.78,False
+Pneumothorax,375,0.848,2258,0.8725,2.45,False
+Fibrosis,189,0.5026,178,0.4944,-0.82,False

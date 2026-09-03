@@ -1,0 +1,9 @@
+subgroup,level,n_patients,n_images,n_opportunities,n_positive_labels,fired_alerts,mean_alerts_per_radiograph,alerts_per_100_images,false_share_pct,redundant_share_pct,first_observed_share_pct,redundant_share_of_correct_pct,ci_lower,ci_upper,pct_reduction_one_alert_ever,unstable_cell,instability_reason,smoke_test
+sex_group,F,599,9474,123162,10798,66271,6.995,699.504,87.621,10.182,2.197,82.253,80.644,83.784,94.747,False,,False
+sex_group,M,825,13325,173225,15058,92586,6.9483,694.829,87.448,10.409,2.143,82.927,81.522,84.31,95.101,False,,False
+age_band,40-60,702,10552,137176,12197,74811,7.0897,708.975,87.359,10.434,2.207,82.542,80.764,84.049,94.88,False,,False
+age_band,<40,436,7270,94510,7941,47043,6.4708,647.084,87.469,10.51,2.022,83.868,82.037,85.621,95.019,False,,False
+age_band,>60,369,4974,64662,5714,36972,7.4331,743.305,87.912,9.826,2.261,81.293,78.569,83.434,95.026,False,,False
+age_band,Missing/Invalid,3,3,39,4,31,10.3333,1033.333,87.097,6.452,6.452,50.0,,,83.871,True,patients<25 or images<100 or positives<10 or fired<50,False
+projection_group,AP,1088,14100,183300,15989,99876,7.0834,708.34,87.504,10.644,1.852,85.177,83.711,86.321,95.638,False,,False
+projection_group,PA,1232,8699,113087,9867,58981,6.7802,678.02,87.549,9.756,2.696,78.35,76.828,79.832,93.795,False,,False

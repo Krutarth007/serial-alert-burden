@@ -1,0 +1,14 @@
+pathology,metric,point_estimate,ci_lower,ci_upper,ci_estimable,reason,smoke_test
+Infiltration,redundant_share_of_correct_pct,89.769,88.715,90.78,True,,False
+Effusion,redundant_share_of_correct_pct,89.552,88.1,90.823,True,,False
+Atelectasis,redundant_share_of_correct_pct,81.56,79.528,83.333,True,,False
+Nodule,redundant_share_of_correct_pct,76.72,72.662,80.393,True,,False
+Mass,redundant_share_of_correct_pct,85.573,82.58,88.079,True,,False
+Consolidation,redundant_share_of_correct_pct,74.232,71.074,77.394,True,,False
+Pneumothorax,redundant_share_of_correct_pct,86.101,84.109,87.677,True,,False
+Pleural_Thickening,redundant_share_of_correct_pct,69.666,65.335,73.406,True,,False
+Cardiomegaly,redundant_share_of_correct_pct,78.977,73.43,83.63,True,,False
+Edema,redundant_share_of_correct_pct,69.373,64.95,73.127,True,,False
+Emphysema,redundant_share_of_correct_pct,77.746,73.869,80.97,True,,False
+Fibrosis,redundant_share_of_correct_pct,48.087,40.698,55.143,True,,False
+Pneumonia,redundant_share_of_correct_pct,48.537,42.707,53.962,True,,False

@@ -1,0 +1,2 @@
+analysis,status,reason,available_sample_size,required_condition_failed,smoke_test
+adjudicated serial redundancy analysis,not_estimable,"too few patients have adjudicated labels on every encounter, so within-sequence history cannot be rebuilt under the adjudicated reference",23,>=100 patients with complete adjudicated sequence coverage,False

@@ -1,0 +1,16 @@
+metric,value
+metadata_rows,112120.0
+metadata_unique_image_ids,112120.0
+metadata_duplicate_image_ids,0.0
+image_files_indexed,112120.0
+image_files_unique_names,112120.0
+duplicate_filenames_on_disk,0.0
+duplicate_paths_on_disk,0.0
+rows_linked_to_a_file,112120.0
+rows_not_linked,0.0
+linkage_rate_pct,100.0
+files_on_disk_without_metadata_row,0.0
+unique_patients,30805.0
+images_per_patient_mean,3.64
+images_per_patient_median,1.0
+images_per_patient_max,184.0

@@ -1,0 +1,15 @@
+pathology,n_positive,prevalence_pct
+Infiltration,19894,17.7435
+Effusion,13317,11.8775
+Atelectasis,11559,10.3095
+Nodule,6331,5.6466
+Mass,5782,5.157
+Pneumothorax,5302,4.7289
+Consolidation,4667,4.1625
+Pleural_Thickening,3385,3.0191
+Cardiomegaly,2776,2.4759
+Emphysema,2516,2.244
+Edema,2303,2.054
+Fibrosis,1686,1.5037
+Pneumonia,1431,1.2763
+Hernia,227,0.2025

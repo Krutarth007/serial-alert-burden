@@ -1,0 +1,20 @@
+check,status,detail
+metadata located,PASS,Data_Entry_2017.csv
+image index built,PASS,"112,120 files"
+metadata-image linkage rate,PASS,100.00%
+label parsing completed,PASS,0 rows flagged
+pathology columns present,PASS,14 columns
+No Finding kept as indicator only,PASS,not a 15th target
+patient IDs present,PASS,"30,805 patients"
+follow-up parse rate,PASS,100.000%
+"duplicate (patient, follow-up) rows",PASS,0 rows
+patient sequences built,PASS,max length 184
+serial transition table built,PASS,"1,569,680 rows"
+index encounters flagged separately,PASS,"30,805 index encounters"
+required tables saved,PASS,missing: none
+required figures saved,PASS,missing: none
+history computed on eligible cohort only,PASS,"1,569,680 rows with history"
+internal gap distinct from nonzero start,PASS,"0 gapped, 0 nonzero-start"
+strict sensitivity cohort available,PASS,"30,805 patients"
+alert-burden schema defined,PASS,label + prediction families
+optional embedding cache,SKIP,optional in Part 1

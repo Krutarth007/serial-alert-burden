@@ -1,0 +1,12 @@
+cohort,n_patients,n_images,n_opportunities,n_positive_labels,fired_alerts,alerts_per_100_images,false_share_pct,redundant_share_pct,first_observed_share_pct,redundant_share_of_correct_pct,detection_gap_pp,inadequate_sample,redundant_share_of_correct_pct_abs_change_vs_primary,redundant_share_of_correct_pct_rel_change_pct,detection_gap_pp_abs_change_vs_primary,detection_gap_pp_rel_change_pct,alerts_per_100_images_abs_change_vs_primary,alerts_per_100_images_rel_change_pct,smoke_test
+primary,1424,22799,296387,25856,158857,696.772,87.52,10.314,2.165,82.648,11.948,False,0.0,0.0,0.0,0.0,0.0,0.0,False
+strict_history_cohort,1424,22799,296387,25856,158857,696.772,87.52,10.314,2.165,82.648,11.948,False,0.0,0.0,0.0,0.0,0.0,0.0,False
+exclude_nonzero_followup_start,1424,22799,296387,25856,158857,696.772,87.52,10.314,2.165,82.648,11.948,False,0.0,0.0,0.0,0.0,0.0,0.0,False
+exclude_internal_gap,1424,22799,296387,25856,158857,696.772,87.52,10.314,2.165,82.648,11.948,False,0.0,0.0,0.0,0.0,0.0,0.0,False
+exclude_duplicate_or_uncertain_order,1424,22799,296387,25856,158857,696.772,87.52,10.314,2.165,82.648,11.948,False,0.0,0.0,0.0,0.0,0.0,0.0,False
+age_consistent_cohort,1226,17802,231426,20552,126359,709.802,87.393,10.364,2.243,82.21,11.937,False,-0.438,-0.53,-0.011,-0.092,13.03,1.87,False
+projection_PA_only,1232,8699,113087,9867,58981,678.02,87.549,9.756,2.696,78.35,12.607,False,-4.298,-5.2,0.659,5.516,-18.752,-2.691,False
+projection_AP_only,1088,14100,183300,15989,99876,708.34,87.504,10.644,1.852,85.177,10.817,False,2.529,3.06,-1.131,-9.466,11.568,1.66,False
+multi_image_patients_only,1424,22799,296387,25856,158857,696.772,87.52,10.314,2.165,82.648,11.948,False,0.0,0.0,0.0,0.0,0.0,0.0,False
+patients_with_3plus_encounters,1169,22544,293072,25768,157666,699.37,87.463,10.379,2.158,82.784,11.872,False,0.136,0.165,-0.076,-0.636,2.598,0.373,False
+validation_auroc_floor_0.65,1424,22799,159593,12534,65631,287.868,87.082,10.663,2.255,82.543,12.261,False,-0.105,-0.127,0.313,2.62,-408.904,-58.685,False

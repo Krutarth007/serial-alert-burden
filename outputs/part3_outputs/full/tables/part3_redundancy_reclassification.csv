@@ -1,0 +1,3 @@
+history_family,historical_definition,immediate_definition,rows_reclassified,pct_reclassified,smoke_test
+label_history,label_historical,label_immediate_prior,7882,2.6594,False
+prediction_history,prediction_historical,prediction_immediate_prior,2663,0.8985,False

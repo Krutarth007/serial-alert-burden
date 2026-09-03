@@ -1,0 +1,5 @@
+adjudicated_field,source_column,nih_labels,mapping_type,usable,rationale,smoke_test
+Pneumothorax,Pneumothorax,Pneumothorax,direct,True,adjudicated pneumothorax maps directly to the NIH pneumothorax label,False
+Nodule_or_mass,Nodule or mass,Nodule|Mass,union,True,adjudicated nodule/mass is a single field; compared against the union of the NIH Nodule and Mass labels,False
+Airspace_opacity,Airspace opacity,Infiltration|Consolidation|Edema|Pneumonia,broad_phenotype,True,"adjudicated airspace opacity is a BROAD phenotype, not equivalent to any single NIH label; treated as a broad-phenotype sensitivity only",False
+Fracture,Fracture,,no_model_output,False,no aligned model output; excluded,False

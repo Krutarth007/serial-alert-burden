@@ -1,0 +1,9 @@
+metric,value
+followup_min,0.0
+followup_max,183.0
+followup_median,3.0
+followup_missing_rows,0.0
+rows_duplicate_patient_followup,0.0
+patients_order_uncertain,0.0
+patients_with_internal_gap,0.0
+patients_starting_nonzero,0.0

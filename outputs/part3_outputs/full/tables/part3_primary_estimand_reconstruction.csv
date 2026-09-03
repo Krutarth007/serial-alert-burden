@@ -1,0 +1,6 @@
+alert_category,n,per_100_followup_images,per_patient,per_100_patient_pathology_opportunities,share_of_fired_alerts_pct,share_of_correct_alerts_pct,n_followup_images,n_patients,n_patient_pathology_opportunities,total_fired,total_correct_alerts,smoke_test
+false_alert,139032,609.8162,97.63483,46.90894,87.5202,,22799,1424,296387,158857,19825,False
+redundant_alert,16385,71.8672,11.50632,5.52825,10.3143,82.6482,22799,1424,296387,158857,19825,False
+first_observed_positive_alert,3440,15.0884,2.41573,1.16064,2.1655,17.3518,22799,1424,296387,158857,19825,False
+missed_positive,6031,26.4529,4.23525,2.03484,,,22799,1424,296387,158857,19825,False
+true_silence,131499,576.7753,92.3448,44.36733,,,22799,1424,296387,158857,19825,False

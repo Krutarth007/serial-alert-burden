@@ -1,0 +1,10 @@
+check,value
+rows_total,112120.0
+rows_parse_ok,112120.0
+rows_unexpected_label_string,0.0
+rows_no_finding_flag,60361.0
+rows_any_pathology,51759.0
+rows_no_finding_with_positive_pathology,0.0
+rows_no_label_at_all,0.0
+max_positive_pathologies_in_one_row,9.0
+mean_positive_pathologies_per_row,0.724

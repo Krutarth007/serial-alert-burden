@@ -1,0 +1,15 @@
+stratum,n_episodes,n_first_appearances,n_later_appearances,sens_first_in_episode,sens_later_in_episode,within_episode_gap_pp,gap_ci_lower,gap_ci_upper,smoke_test
+overall,5191,5191,10229,0.7844,0.8074,2.298,1.045,3.512,False
+Infiltration,1291,1291,2506,0.9086,0.9258,1.718,,,False
+Effusion,975,975,2109,0.6451,0.7089,6.374,,,False
+Atelectasis,653,653,1099,0.8055,0.8271,2.16,,,False
+Nodule,273,273,445,0.6484,0.636,-1.24,,,False
+Mass,316,316,615,0.6677,0.6846,1.683,,,False
+Consolidation,312,312,490,0.9647,0.9776,1.281,,,False
+Pneumothorax,538,538,1522,0.8662,0.8765,1.031,,,False
+Pleural_Thickening,151,151,231,0.8543,0.9004,4.613,,,False
+Cardiomegaly,189,189,338,0.5873,0.6095,2.217,,,False
+Edema,159,159,270,0.8616,0.7778,-8.386,,,False
+Emphysema,234,234,471,0.6453,0.6667,2.137,,,False
+Fibrosis,56,56,71,0.4286,0.4648,3.622,,,False
+Pneumonia,44,44,62,0.8409,0.7581,-8.284,,,False

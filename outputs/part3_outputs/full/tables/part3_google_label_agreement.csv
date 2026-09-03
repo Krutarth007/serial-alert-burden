@@ -1,0 +1,4 @@
+adjudicated_field,mapping_type,n_images,adjudicated_prevalence_pct,nih_prevalence_pct,both_positive,nih_only,adjudicated_only,both_negative,raw_agreement,cohens_kappa,positive_agreement,negative_agreement,smoke_test
+Pneumothorax,direct,1962,9.939,10.194,97,103,98,1664,0.8976,0.4342,0.4911,0.943,False
+Nodule_or_mass,union,1962,15.036,12.08,134,103,161,1564,0.8654,0.427,0.5038,0.9222,False
+Airspace_opacity,broad_phenotype,1962,57.849,32.059,508,121,627,706,0.6188,0.2782,0.576,0.6537,False
