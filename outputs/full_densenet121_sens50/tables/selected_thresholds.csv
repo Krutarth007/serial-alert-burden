@@ -1,0 +1,14 @@
+pathology,threshold,rule_applied,fallback_used,val_sensitivity,val_specificity,val_ppv,val_f1,val_alert_rate,sensitivity_floor,selected_on,smoke_test
+Infiltration,0.43,validation_threshold_maximize_f1_with_sensitivity_floor,False,0.6928,0.4823,0.1585,0.2579,0.5393,0.5,validation_split_only,False
+Effusion,0.63,validation_threshold_maximize_f1_with_sensitivity_floor,False,0.5273,0.9412,0.3981,0.4537,0.0909,0.5,validation_split_only,False
+Atelectasis,0.52,validation_threshold_maximize_f1_with_sensitivity_floor,False,0.5219,0.7577,0.1532,0.2369,0.2639,0.5,validation_split_only,False
+Nodule,0.5,validation_threshold_maximize_f1_with_sensitivity_floor,False,0.5602,0.6161,0.0703,0.1249,0.3926,0.5,validation_split_only,False
+Mass,0.51,validation_threshold_maximize_f1_with_sensitivity_floor,False,0.5,0.7374,0.0764,0.1326,0.2725,0.5,validation_split_only,False
+Consolidation,0.3,validation_threshold_maximize_f1_with_sensitivity_floor,False,0.5231,0.7039,0.0453,0.0834,0.3021,0.5,validation_split_only,False
+Pneumothorax,0.3,validation_threshold_maximize_f1_with_sensitivity_floor,False,0.5381,0.6323,0.0368,0.0688,0.372,0.5,validation_split_only,False
+Pleural_Thickening,0.31,validation_threshold_maximize_f1_with_sensitivity_floor,False,0.5395,0.6634,0.0411,0.0763,0.3419,0.5,validation_split_only,False
+Cardiomegaly,0.44,validation_threshold_maximize_f1_with_sensitivity_floor,False,0.5333,0.8949,0.0937,0.1594,0.1137,0.5,validation_split_only,False
+Edema,0.32,validation_threshold_maximize_f1_with_sensitivity_floor,False,0.5741,0.936,0.0558,0.1016,0.0673,0.5,validation_split_only,False
+Emphysema,0.24,validation_threshold_maximize_f1_with_sensitivity_floor,False,0.5701,0.7147,0.0256,0.0489,0.289,0.5,validation_split_only,False
+Fibrosis,0.28,validation_threshold_maximize_f1_with_sensitivity_floor,False,0.5154,0.7542,0.0324,0.061,0.25,0.5,validation_split_only,False
+Pneumonia,0.12,validation_threshold_maximize_f1_with_sensitivity_floor,False,0.5233,0.5889,0.0132,0.0258,0.4122,0.5,validation_split_only,False

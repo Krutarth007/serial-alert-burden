@@ -1,0 +1,23 @@
+check,status,detail,smoke_test
+Part 1 artifacts found,PASS,"112,120 images",False
+Part 1 fingerprint matches,PASS,ff1425a89979,False
+image IDs unique,PASS,wide table,False
+long-table integrity,PASS,"1,569,680 rows",False
+model cohort has linked images,PASS,"112,120 images",False
+zero patient overlap across splits,PASS,official_nih,False
+thresholds selected on validation only,PASS,0 fallback(s),False
+selected labels meet positive-count rules,PASS,13 labels,False
+pretrained embedding cache verified,PASS,densenet121_xrv_mimic_ch,False
+no random-weight cache used,PASS,enforced at load,False
+model checkpoint saved,PASS,best_head.pt,False
+test predictions complete,PASS,"332,748 rows",False
+no duplicate test image-pathology rows,PASS,unique,False
+test history isolated from train/validation,PASS,0 outside-split images,False
+index encounters excluded from primary cohort,PASS,"36,361 excluded",False
+warm-up encounters handled as pre-specified,PASS,excluded from primary; sensitivity reported,False
+alert categories mutually exclusive,PASS,5 categories,False
+history families kept distinct,PASS,label vs prediction,False
+model saw embeddings only,PASS,no history features,False
+all required tables saved,PASS,missing: none,False
+all required figures saved,PASS,missing: none,False
+run mode,PASS,full analysis,False

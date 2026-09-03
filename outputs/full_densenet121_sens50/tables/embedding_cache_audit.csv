@@ -1,0 +1,10 @@
+property,value,smoke_test
+backbone,densenet121_xrv_mimic_ch,False
+pretrained_weights_used,True,False
+preprocessing_version,cxr-v2-gray1ch-224-xrvnorm,False
+embedding_dim,1024,False
+n_images_cached,112120,False
+n_images_needed,112120,False
+n_images_covered,112120,False
+duplicate_ids_in_cache,0,False
+fingerprint_matches_part1,True,False
