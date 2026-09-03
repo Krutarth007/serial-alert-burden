@@ -1,4 +1,0 @@
-split,n_patients,n_images,n_image_linked,n_followup_images,median_sequence_length,max_sequence_length,pct_images,patients_in_other_splits,smoke_test
-test,2797,25596,25596,22799,32.0,184,22.829,0,False
-train,24507,78264,78264,53757,7.0,109,69.804,0,False
-validation,3501,8260,8260,4759,3.0,35,7.367,0,False

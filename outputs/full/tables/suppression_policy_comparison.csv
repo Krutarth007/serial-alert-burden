@@ -1,6 +1,0 @@
-policy,status,total_fired_alerts,alerts_per_100_followup_images,alerts_per_patient,false_alerts,label_history_redundant_alerts,prediction_history_redundant_alerts,first_observed_positive_alerts,alert_reduction_vs_baseline,pct_reduction_vs_baseline,first_observed_retention_pct,false_alert_reduction_vs_baseline,patients_with_at_least_one_alert,patients_losing_all_baseline_first_observed_alerts,median_alerts_per_patient,iqr_alerts_per_patient,smoke_test
-baseline,reference,142499,625.023,100.0695,122101,16983,20195,3415,0,0.0,100.0,0,1423,0,47.0,14.0-131.0,False
-prediction_one_alert_ever,deployable_style,3077,13.496,2.1608,2874,33,0,170,139422,97.841,4.978,119227,1133,881,2.0,1.0-3.0,False
-prediction_immediate_repeat_suppression,deployable_style,22026,96.61,15.4677,20606,910,1217,510,120473,84.543,14.934,101495,1312,638,8.0,3.0-19.0,False
-prediction_threshold_crossing,deployable_style,22026,96.61,15.4677,20606,910,1217,510,120473,84.543,14.934,101495,1312,638,8.0,3.0-19.0,False
-label_historical_oracle,retrospective_oracle_benchmark_not_deployable,63130,276.898,44.3329,59715,0,3245,3415,79369,55.698,100.0,62386,1422,0,32.0,12.0-63.0,False

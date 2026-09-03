@@ -1,9 +1,0 @@
-split,pathology,n_images,n_positive,n_negative,prevalence_pct,auroc,auroc_undefined_reason,auprc,auprc_undefined_reason,calibration_evaluated,smoke_test
-validation,Infiltration,8260,1019,7241,12.3366,0.5551976200295476,,0.13415674657278287,,False,False
-validation,Effusion,8260,567,7693,6.8644,0.8103523416578575,,0.3481618253035312,,False,False
-validation,Atelectasis,8260,640,7620,7.7482,0.7055825541338583,,0.15765586084281144,,False,False
-validation,Nodule,8260,407,7853,4.9274,0.6185717222263765,,0.08519255075893223,,False,False
-validation,Mass,8260,344,7916,4.1646,0.6524921560102002,,0.11741407753430026,,False,False
-validation,Consolidation,8260,216,8044,2.615,0.5961085557213105,,0.038877729724611745,,False,False
-validation,Pneumothorax,8260,210,8050,2.5424,0.7176435965690624,,0.06208825794252167,,False,False
-validation,Pleural_Thickening,8260,215,8045,2.6029,0.6210773700261609,,0.04325017305276477,,False,False
