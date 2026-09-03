@@ -1,0 +1,10 @@
+metric,value,smoke_test
+patients_total,30805.0,True
+patients_multi_image,13302.0,True
+patients_age_consistent_within_2y,29132.0,True
+patients_age_decrease_gt_10y,287.0,True
+images_age_consistent,95115.0,True
+patients_with_estimable_rho,6417.0,True
+median_spearman_rho_position_vs_age,0.6819,True
+pct_patients_rho_positive,72.822,True
+pct_patients_rho_ge_0.9,16.503,True

@@ -1,0 +1,10 @@
+property,value,smoke_test
+backbone,resnet50_imagenet,True
+pretrained_weights_used,True,True
+preprocessing_version,cxr-v1-gray3ch-224-imagenetnorm,True
+embedding_dim,2048,True
+n_images_cached,256,True
+n_images_needed,6362,True
+n_images_covered,256,True
+duplicate_ids_in_cache,0,True
+fingerprint_matches_part1,True,True

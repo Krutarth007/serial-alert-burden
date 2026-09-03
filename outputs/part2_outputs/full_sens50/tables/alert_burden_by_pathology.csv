@@ -1,0 +1,17 @@
+pathology,n_images,n_patients,n_opportunities,false_alert,redundant_alert,first_observed_positive_alert,missed_positive,true_silence,total_fired,share_false_alert_pct,share_redundant_alert_pct,share_first_observed_positive_alert_pct,fired_per_100_images,redundancy_definition,smoke_test
+Atelectasis,22799,1424,22799,9353,1738,390,994,10324,11481,81.465,15.138,3.397,50.357,label_historical,False
+Consolidation,22799,1424,22799,16488,1194,415,159,4543,18097,91.109,6.598,2.293,79.376,label_historical,False
+Effusion,22799,1424,22799,6941,2689,323,1508,11338,9953,69.738,27.017,3.245,43.655,label_historical,False
+Infiltration,22799,1424,22799,15544,5059,657,171,1368,21260,73.114,23.796,3.09,93.25,label_historical,False
+Mass,22799,1424,22799,10969,928,163,491,10248,12060,90.954,7.695,1.352,52.897,label_historical,False
+Nodule,22799,1424,22799,7971,636,205,624,13363,8812,90.456,7.217,2.326,38.651,label_historical,False
+Pleural_Thickening,22799,1424,22799,8960,464,207,370,12798,9631,93.033,4.818,2.149,42.243,label_historical,False
+Pneumothorax,22799,1424,22799,7707,1747,275,611,12459,9729,79.217,17.957,2.827,42.673,label_historical,False
+Atelectasis,22799,1424,22799,9353,2009,119,994,10324,11481,81.465,17.498,1.036,50.357,prediction_historical,False
+Consolidation,22799,1424,22799,16488,1585,24,159,4543,18097,91.109,8.758,0.133,79.376,prediction_historical,False
+Effusion,22799,1424,22799,6941,2855,157,1508,11338,9953,69.738,28.685,1.577,43.655,prediction_historical,False
+Infiltration,22799,1424,22799,15544,5692,24,171,1368,21260,73.114,26.773,0.113,93.25,prediction_historical,False
+Mass,22799,1424,22799,10969,1046,45,491,10248,12060,90.954,8.673,0.373,52.897,prediction_historical,False
+Nodule,22799,1424,22799,7971,791,50,624,13363,8812,90.456,8.976,0.567,38.651,prediction_historical,False
+Pleural_Thickening,22799,1424,22799,8960,651,20,370,12798,9631,93.033,6.759,0.208,42.243,prediction_historical,False
+Pneumothorax,22799,1424,22799,7707,1978,44,611,12459,9729,79.217,20.331,0.452,42.673,prediction_historical,False
