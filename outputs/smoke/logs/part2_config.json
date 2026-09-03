@@ -1,0 +1,125 @@
+{
+  "AGE_CONSISTENCY_TOLERANCE_YEARS": 2.0,
+  "ALLOW_FULL_CPU_EMBEDDING_EXTRACTION": false,
+  "ALLOW_MODEL_DOWNLOAD": true,
+  "BATCH_SIZE": 256,
+  "CACHE": "C:\\Users\\kruta\\Downloads\\part2_outputs\\cache",
+  "CB": [
+    [
+      0.00392156862745098,
+      0.45098039215686275,
+      0.6980392156862745
+    ],
+    [
+      0.8705882352941177,
+      0.5607843137254902,
+      0.0196078431372549
+    ],
+    [
+      0.00784313725490196,
+      0.6196078431372549,
+      0.45098039215686275
+    ],
+    [
+      0.8352941176470589,
+      0.3686274509803922,
+      0.0
+    ],
+    [
+      0.8,
+      0.47058823529411764,
+      0.7372549019607844
+    ],
+    [
+      0.792156862745098,
+      0.5686274509803921,
+      0.3803921568627451
+    ],
+    [
+      0.984313725490196,
+      0.6862745098039216,
+      0.8941176470588236
+    ],
+    [
+      0.5803921568627451,
+      0.5803921568627451,
+      0.5803921568627451
+    ],
+    [
+      0.9254901960784314,
+      0.8823529411764706,
+      0.2
+    ],
+    [
+      0.33725490196078434,
+      0.7058823529411765,
+      0.9137254901960784
+    ]
+  ],
+  "EARLY_STOPPING_PATIENCE": 7,
+  "EMBED_CHUNK_SIZE": 2000,
+  "EMBED_IMAGE_SIZE": 224,
+  "EMBED_SMOKE_TEST_N": 256,
+  "FAST_MODE": true,
+  "FIGURES": "C:\\Users\\kruta\\Downloads\\part2_outputs\\smoke\\figures",
+  "FIXED_THRESHOLD_SENSITIVITY_VALUE": 0.5,
+  "IMAGE_ROOT": "C:\\Users\\kruta\\Downloads\\NIH Chest X-rays",
+  "LEARNING_RATE": 0.001,
+  "LOGS": "C:\\Users\\kruta\\Downloads\\part2_outputs\\smoke\\logs",
+  "MAX_EPOCHS": 50,
+  "MAX_POS_WEIGHT": 20.0,
+  "MAX_PRIMARY_LABELS": 8,
+  "MIN_SUBGROUP_IMAGES": 100,
+  "MIN_SUBGROUP_PATIENTS": 25,
+  "MIN_SUBGROUP_POSITIVES": 10,
+  "MIN_TEST_POSITIVES": 25,
+  "MIN_TRAIN_POSITIVES": 100,
+  "MIN_VALIDATION_POSITIVES": 25,
+  "MIN_VALIDATION_SENSITIVITY": 0.8,
+  "NUM_WORKERS": 0,
+  "OUT": "C:\\Users\\kruta\\Downloads\\part2_outputs\\smoke",
+  "P1_CACHE": "C:\\Users\\kruta\\Downloads\\part1_outputs\\cache",
+  "P1_LOGS": "C:\\Users\\kruta\\Downloads\\part1_outputs\\logs",
+  "P1_TABLES": "C:\\Users\\kruta\\Downloads\\part1_outputs\\tables",
+  "PART1_OUTPUT_DIR": "C:\\Users\\kruta\\Downloads\\part1_outputs",
+  "PART2_OUTPUT_DIR": "C:\\Users\\kruta\\Downloads\\part2_outputs",
+  "PATHOLOGIES": [
+    "Atelectasis",
+    "Cardiomegaly",
+    "Effusion",
+    "Infiltration",
+    "Mass",
+    "Nodule",
+    "Pneumonia",
+    "Pneumothorax",
+    "Consolidation",
+    "Edema",
+    "Emphysema",
+    "Fibrosis",
+    "Pleural_Thickening",
+    "Hernia"
+  ],
+  "PRIMARY_ALERT_COHORT": "followup_only_primary_history",
+  "PRIMARY_BACKBONE": "resnet50_imagenet",
+  "PRIMARY_LABEL_SELECTION_RULE": "all labels meeting minimum positive counts in each split",
+  "PRIMARY_MODEL_NAME": "linear_multilabel_embedding_head",
+  "PRIMARY_REDUNDANCY_DEFINITION": "label_historical",
+  "PRIMARY_THRESHOLD_RULE": "validation_threshold_maximize_f1_with_sensitivity_floor",
+  "RANDOM_SEED": 42,
+  "RUN_FAST_SMOKE_TEST": true,
+  "RUN_FULL_TRAINING": false,
+  "RUN_TAG": "smoke",
+  "SECONDARY_REDUNDANCY_DEFINITION": "prediction_historical",
+  "STRICT_SENSITIVITY_COHORT": "followup_only_strict_history",
+  "TABLES": "C:\\Users\\kruta\\Downloads\\part2_outputs\\smoke\\tables",
+  "TEST_FRACTION": 0.2,
+  "TRAIN_FRACTION": 0.7,
+  "USE_CACHED_EMBEDDINGS": true,
+  "USE_OFFICIAL_SPLIT_IF_PATIENT_DISJOINT": true,
+  "VALIDATION_FRACTION": 0.1,
+  "WEIGHT_DECAY": 0.0001,
+  "created_utc": "2026-08-30T22:27:31.038225+00:00",
+  "python": "3.11.16",
+  "platform": "Windows 10",
+  "torch_available": true
+}

@@ -1,0 +1,18 @@
+subgroup,level,n_images,n_patients,n_opportunities,false_alert,redundant_alert,first_observed_positive_alert,missed_positive,true_silence,total_fired,share_false_alert_pct,share_redundant_alert_pct,share_first_observed_positive_alert_pct,fired_per_100_images,redundancy_definition,n_positive_opportunities,unstable_cell,instability_reason,pct_reduction_one_alert_ever,pct_missing_level,smoke_test
+sex_group,F,9474,599,75792,35212,5985,1130,2072,31393,42327,83.19,14.14,2.67,446.77,label_historical,9187,False,,95.211,0.0,False
+sex_group,M,13325,825,106600,48721,8470,1505,2856,45048,58696,83.006,14.43,2.564,440.495,label_historical,12831,False,,95.33,0.0,False
+age_band,40-60,10552,702,84416,39332,6934,1297,2277,34576,47563,82.695,14.579,2.727,450.749,label_historical,10508,False,,95.299,0.0,False
+age_band,<40,7270,436,58160,24699,4235,699,1628,26899,29633,83.35,14.291,2.359,407.607,label_historical,6562,False,,95.208,0.0,False
+age_band,>60,4974,369,39792,19893,3284,638,1023,14954,23815,83.531,13.79,2.679,478.79,label_historical,4945,False,,95.331,0.0,False
+age_band,Missing/Invalid,3,3,24,9,2,1,0,12,12,75.0,16.667,8.333,400.0,label_historical,3,True,<100 images,100.0,0.0,False
+projection_group,AP,14100,1088,112800,48689,9270,1331,2961,50549,59290,82.12,15.635,2.245,420.496,label_historical,13562,False,,95.888,0.0,False
+projection_group,PA,8699,1232,69592,35244,5185,1304,1967,25892,41733,84.451,12.424,3.125,479.745,label_historical,8456,False,,94.417,0.0,False
+position_bin,2,1424,1424,11392,4558,216,427,264,5927,5201,87.637,4.153,8.21,365.239,label_historical,907,False,,61.411,0.0,False
+position_bin,3,1169,1169,9352,3947,330,356,249,4470,4633,85.193,7.123,7.684,396.322,label_historical,935,False,,78.07,0.0,False
+position_bin,4,1065,1065,8520,3690,392,319,224,3895,4401,83.845,8.907,7.248,413.239,label_historical,935,False,,86.889,0.0,False
+position_bin,5,978,978,7824,3441,445,219,220,3499,4105,83.825,10.84,5.335,419.734,label_historical,884,False,,92.107,0.0,False
+position_bin,6,899,899,7192,3147,443,193,210,3199,3783,83.188,11.71,5.102,420.801,label_historical,846,False,,94.317,0.0,False
+position_bin,7,837,837,6696,3007,423,147,218,2901,3577,84.065,11.826,4.11,427.36,label_historical,788,False,,94.968,0.0,False
+position_bin,8,786,786,6288,2817,480,138,172,2681,3435,82.009,13.974,4.017,437.023,label_historical,790,False,,97.118,0.0,False
+position_bin,9,737,737,5896,2749,426,97,184,2440,3272,84.016,13.02,2.965,443.962,label_historical,707,False,,97.28,0.0,False
+position_bin,>=10,14904,692,119232,56577,11300,739,3187,47429,68616,82.455,16.468,1.077,460.386,label_historical,15226,False,,99.62,0.0,False

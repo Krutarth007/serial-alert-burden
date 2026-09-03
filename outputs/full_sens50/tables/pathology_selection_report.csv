@@ -1,0 +1,15 @@
+pathology,n_train,pos_train,prev_train_pct,n_validation,pos_validation,prev_validation_pct,n_test,pos_test,prev_test_pct,eligible,exclusion_reason,status,selection_rule,max_primary_labels,smoke_test
+Atelectasis,78264,7640,9.7618,8260,640,7.7482,25596,3279,12.8106,True,,primary,all labels meeting minimum positive counts in each split,8,False
+Cardiomegaly,78264,1542,1.9703,8260,165,1.9976,25596,1069,4.1764,True,,secondary_eligible_not_selected,all labels meeting minimum positive counts in each split,8,False
+Effusion,78264,8092,10.3394,8260,567,6.8644,25596,4658,18.1982,True,,primary,all labels meeting minimum positive counts in each split,8,False
+Infiltration,78264,12763,16.3076,8260,1019,12.3366,25596,6112,23.8787,True,,primary,all labels meeting minimum positive counts in each split,8,False
+Mass,78264,3690,4.7148,8260,344,4.1646,25596,1748,6.8292,True,,primary,all labels meeting minimum positive counts in each split,8,False
+Nodule,78264,4301,5.4955,8260,407,4.9274,25596,1623,6.3408,True,,primary,all labels meeting minimum positive counts in each split,8,False
+Pneumonia,78264,790,1.0094,8260,86,1.0412,25596,555,2.1683,True,,secondary_eligible_not_selected,all labels meeting minimum positive counts in each split,8,False
+Pneumothorax,78264,2427,3.101,8260,210,2.5424,25596,2665,10.4118,True,,primary,all labels meeting minimum positive counts in each split,8,False
+Consolidation,78264,2636,3.3681,8260,216,2.615,25596,1815,7.091,True,,primary,all labels meeting minimum positive counts in each split,8,False
+Edema,78264,1324,1.6917,8260,54,0.6538,25596,925,3.6138,True,,secondary_eligible_not_selected,all labels meeting minimum positive counts in each split,8,False
+Emphysema,78264,1316,1.6815,8260,107,1.2954,25596,1093,4.2702,True,,secondary_eligible_not_selected,all labels meeting minimum positive counts in each split,8,False
+Fibrosis,78264,1121,1.4323,8260,130,1.5738,25596,435,1.6995,True,,secondary_eligible_not_selected,all labels meeting minimum positive counts in each split,8,False
+Pleural_Thickening,78264,2027,2.59,8260,215,2.6029,25596,1143,4.4655,True,,primary,all labels meeting minimum positive counts in each split,8,False
+Hernia,78264,126,0.161,8260,15,0.1816,25596,86,0.336,False,validation positives 15 < 25,excluded,all labels meeting minimum positive counts in each split,8,False
