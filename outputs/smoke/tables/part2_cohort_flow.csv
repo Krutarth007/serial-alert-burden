@@ -1,6 +1,0 @@
-step,n_images,n_patients,pct_of_start,smoke_test
-all_images_part1,112120,30805,100.0,True
-image_linked,112120,30805,100.0,True
-sequence_eligible,112120,30805,100.0,True
-assigned_to_test_split,25596,2797,22.829,True
-test_followup_encounters,22799,1424,20.334,True
