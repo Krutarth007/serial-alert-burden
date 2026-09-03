@@ -1,0 +1,17 @@
+pathology,n_images,n_patients,n_opportunities,false_alert,redundant_alert,first_observed_positive_alert,missed_positive,true_silence,total_fired,share_false_alert_pct,share_redundant_alert_pct,share_first_observed_positive_alert_pct,fired_per_100_images,redundancy_definition,smoke_test
+Atelectasis,22799,1424,22799,15084,2289,554,279,4593,17927,84.141,12.768,3.09,78.631,label_historical,False
+Consolidation,22799,1424,22799,19683,1263,469,36,1348,21415,91.912,5.898,2.19,93.93,label_historical,False
+Effusion,22799,1424,22799,13608,3697,560,263,4671,17865,76.171,20.694,3.135,78.359,label_historical,False
+Infiltration,22799,1424,22799,15544,5059,657,171,1368,21260,73.114,23.796,3.09,93.25,label_historical,False
+Mass,22799,1424,22799,17207,1183,241,158,4010,18631,92.357,6.35,1.294,81.718,label_historical,False
+Nodule,22799,1424,22799,13645,855,308,302,7689,14808,92.146,5.774,2.08,64.95,label_historical,False
+Pleural_Thickening,22799,1424,22799,14759,607,287,147,6999,15653,94.289,3.878,1.834,68.657,label_historical,False
+Pneumothorax,22799,1424,22799,12571,2030,339,264,7595,14940,84.143,13.588,2.269,65.529,label_historical,False
+Atelectasis,22799,1424,22799,15084,2785,58,279,4593,17927,84.141,15.535,0.324,78.631,prediction_historical,False
+Consolidation,22799,1424,22799,19683,1722,10,36,1348,21415,91.912,8.041,0.047,93.93,prediction_historical,False
+Effusion,22799,1424,22799,13608,4202,55,263,4671,17865,76.171,23.521,0.308,78.359,prediction_historical,False
+Infiltration,22799,1424,22799,15544,5692,24,171,1368,21260,73.114,26.773,0.113,93.25,prediction_historical,False
+Mass,22799,1424,22799,17207,1417,7,158,4010,18631,92.357,7.606,0.038,81.718,prediction_historical,False
+Nodule,22799,1424,22799,13645,1142,21,302,7689,14808,92.146,7.712,0.142,64.95,prediction_historical,False
+Pleural_Thickening,22799,1424,22799,14759,886,8,147,6999,15653,94.289,5.66,0.051,68.657,prediction_historical,False
+Pneumothorax,22799,1424,22799,12571,2349,20,264,7595,14940,84.143,15.723,0.134,65.529,prediction_historical,False

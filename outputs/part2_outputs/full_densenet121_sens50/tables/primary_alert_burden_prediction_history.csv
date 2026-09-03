@@ -1,0 +1,6 @@
+redundancy_definition,history_family,cohort,include_warmup,strict_cohort,age_consistent_only,alert_category,n,per_100_followup_images,per_patient,per_100_patient_pathology_opportunities,share_of_fired_alerts_pct,n_followup_images,n_patients,n_patient_pathology_opportunities,total_fired_alerts,median_fired_alerts_per_patient,iqr_fired_alerts_per_patient,smoke_test
+prediction_historical,prediction_history,followup_only_primary_history,False,False,False,false_alert,139032,609.816,97.6348,46.9089,87.52,22799,1424,296387,158857,45.0,11.0-137.0,False
+prediction_historical,prediction_history,followup_only_primary_history,False,False,False,redundant_alert,19148,83.986,13.4466,6.4605,12.054,22799,1424,296387,158857,45.0,11.0-137.0,False
+prediction_historical,prediction_history,followup_only_primary_history,False,False,False,first_observed_positive_alert,677,2.969,0.4754,0.2284,0.426,22799,1424,296387,158857,45.0,11.0-137.0,False
+prediction_historical,prediction_history,followup_only_primary_history,False,False,False,missed_positive,6031,26.453,4.2353,2.0348,,22799,1424,296387,158857,45.0,11.0-137.0,False
+prediction_historical,prediction_history,followup_only_primary_history,False,False,False,true_silence,131499,576.775,92.3448,44.3673,,22799,1424,296387,158857,45.0,11.0-137.0,False
