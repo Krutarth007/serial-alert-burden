@@ -1,0 +1,48 @@
+# Serial Alert Burden - Python dependencies
+#
+# Verified against imports in all three notebooks and the versions recorded in
+# part1_run_manifest.json. Developed on Python 3.11.5 (Windows 10).
+#
+# Install (CPU only - no GPU is required at any point):
+#   pip install -r requirements.txt
+#
+# On Windows with Anaconda, install torch from the PyTorch CPU index first to
+# avoid the MKL/OpenMP DLL conflict that occurs when a CUDA build is placed in a
+# conda base environment:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+#   pip install -r requirements.txt
+
+# --- core analysis (all three notebooks) -------------------------------------
+numpy>=1.24,<2.0
+pandas>=2.0
+pyarrow>=14.0            # parquet artifacts passed between notebooks
+
+# --- figures (all three notebooks) -------------------------------------------
+matplotlib>=3.7
+seaborn>=0.13
+
+# --- modelling and metrics (Parts 2 and 3) -----------------------------------
+scikit-learn>=1.3        # AUROC, average precision, Cohen kappa
+torch>=2.0               # linear multi-label head; CPU build is sufficient
+torchvision>=0.15        # ImageNet backbones and image transforms
+
+# --- chest-radiograph representation (Part 2) --------------------------------
+# Supplies the DenseNet-121 weights pretrained on MIMIC-CXR that this study uses
+# (weight tag densenet121-res224-mimic_ch). Weights trained on ChestX-ray14 are
+# deliberately NOT used, since they would have seen the evaluation patients.
+torchxrayvision>=1.2
+
+# --- image decoding (Parts 1 and 2) ------------------------------------------
+pillow>=10.0
+scikit-image>=0.21       # required by torchxrayvision preprocessing
+
+# --- progress reporting (Part 1) ---------------------------------------------
+tqdm>=4.65
+
+# --- notebook environment ----------------------------------------------------
+jupyter>=1.0
+ipykernel>=6.25
+
+# Optional, imported lazily and only if a CLIP backbone is explicitly enabled.
+# Not used in the reported analysis; leave uninstalled unless you enable that path.
+# clip @ git+https://github.com/openai/CLIP.git
